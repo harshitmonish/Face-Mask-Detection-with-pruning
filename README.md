@@ -19,6 +19,7 @@ and their combination. The labels of this dataset consists of:
 * * Uncovered Chin
 * * Uncovered nose
 * * Uncovered nose and mouth
+
 First the image is classified as correctly masked(CMFD) or Incorrectly masked(IMFD) and then
 IMFD is further classified as Uncovered chin, Uncovered node and Uncovered nose and mouth. An
 image is labeled face mask correctly worn if the mask covers the nose, mouth, chin and incorrectly
