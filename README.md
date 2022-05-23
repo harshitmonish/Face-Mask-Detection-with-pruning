@@ -1,1 +1,1 @@
-# Face-Mask-Detection-with-pruning
+# Face-Mask-Detection
