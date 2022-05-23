@@ -29,3 +29,6 @@ mouth.
 # How to run:
 * For Pruning code please refer to Pruning/FaceMaskPruning.ipynb
 * For Knowledge DIstillation run create_ataset.ipynb->Xception.ipynb->KD.ipynb
+
+# Project Report
+The project report and more details can be found in the file Report.pdf
