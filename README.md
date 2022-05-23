@@ -10,4 +10,4 @@ hardware/software stack itself, We aim to explore different model compression te
 project.
 
 # How to run:
-* For Pruning please refer to FaceMaskDetection.ipynb
+* For Pruning code please refer to Pruning/FaceMaskPruning.ipynb
