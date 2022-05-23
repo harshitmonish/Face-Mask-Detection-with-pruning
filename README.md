@@ -9,5 +9,21 @@ the number of parameters. Since the latter looks more feasible and in comparison
 hardware/software stack itself, We aim to explore different model compression techniques in this
 project.
 
+# Dataset
+For this project the dataset that we are going to use MaskedFace-Net[2] Dataset. It consists of
+137016 quality masked face images each of size 1024x1024. This dataset have three types of masked
+face images i.e. Correctly Masked Face Dataset (CMFD), Incorrectly Masked Face Dataset (IMFD)
+and their combination. The labels of this dataset consists of:
+* Correctly masked
+* Incorrectly masked
+** Uncovered Chin
+** Uncovered nose
+** Uncovered nose and mouth
+First the image is classified as correctly masked(CMFD) or Incorrectly masked(IMFD) and then
+IMFD is further classified as Uncovered chin, Uncovered node and Uncovered nose and mouth. An
+image is labeled face mask correctly worn if the mask covers the nose, mouth, chin and incorrectly
+if mask if just covering nose and mouth or mask covering mouth and chin or mask is under the
+mouth.
+
 # How to run:
 * For Pruning code please refer to Pruning/FaceMaskPruning.ipynb
